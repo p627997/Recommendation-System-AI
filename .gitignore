@@ -1,0 +1,38 @@
+# Backend
+backend/env
+backend/__pycache__/
+backend/db.sqlite3
+backend/core/__pycache__/
+backend/blog/__pycache__/
+backend/accounts/__pycache__/
+backend/accounts/migrations/
+backend/blog/migrations/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+frontend/dist-ssr
+frontend/*.local
+# Editor directories and files
+frontend/.vscode/*
+frontend/!.vscode/extensions.json
+frontend/.idea
+frontend/.DS_Store
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+
+# Common
+PROJECT_DOCUMENTATION..txt
+run.sh
